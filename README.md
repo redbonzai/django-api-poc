@@ -9,5 +9,9 @@ docker-compoes run --rm app sh -c "flake8"
 docker compose run --rm app sh -c "django-admin startproject app ."
 ```
 
+## Run Tests from docker container
+```termnal
+docker compose run --rm app sh -c "python manage.py test"
+```
 ## Settings off triggers with github actions
 
