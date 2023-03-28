@@ -8,3 +8,6 @@ docker-compoes run --rm app sh -c "flake8"
 ```terminal
 docker compose run --rm app sh -c "django-admin startproject app ."
 ```
+
+## Settings off triggers with github actions
+
